@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Supercharge your workflow with NovaFlow. Automate tasks, track performance, and scale effortlessly." />
+  <title>NovaFlow — Scale Your Growth Seamlessly</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-mark">◆</span> Nova<span>Flow</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="#pricing" class="btn btn-secondary">Sign In</a>
+        <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+      
+      <!-- Trust Badge -->
+      <div class="badge fade-in">
+        <span class="badge-dot"></span> Over 10,000+ teams trust NovaFlow
+      </div>
+
+      <!-- Main Headline & Value Prop -->
+      <h1 class="hero-title fade-in">
+        Turn scattered tasks into <span class="gradient-text">predictable revenue</span>
+      </h1>
+      <p class="hero-subtitle fade-in">
+        The all-in-one workspace built to automate redundant operations, track team velocity, and maximize customer conversion without the busywork.
+      </p>
+
+      <!-- Primary Action & Risk Reducer -->
+      <div class="hero-cta fade-in">
+        <form class="lead-form" id="leadForm">
+          <input type="email" placeholder="Enter your work email..." required />
+          <button type="submit" class="btn btn-primary btn-large">Claim 14-Day Free Pass</button>
+        </form>
+        <p class="cta-microcopy">✓ No credit card required &nbsp;•&nbsp; ✓ Cancel anytime &nbsp;•&nbsp; ✓ Instant 2-min setup</p>
+      </div>
+
+      <!-- Hero Visual / Dashboard Mockup -->
+      <div class="hero-dashboard-preview fade-in">
+        <div class="mockup-window">
+          <div class="mockup-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="mockup-title">novaflow.app/dashboard</span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-stat-card">
+              <span class="label">Total Growth</span>
+              <span class="value">+148.6%</span>
+              <span class="delta">↗ vs last 30 days</span>
+            </div>
+            <div class="mockup-stat-card">
+              <span class="label">Time Saved / Week</span>
+              <span class="value">19.4 hrs</span>
+              <span class="delta">↗ Automated sync</span>
+            </div>
+            <div class="mockup-stat-card">
+              <span class="label">Conversion Lift</span>
+              <span class="value">3.2x</span>
+              <span class="delta">↗ Optimized funnel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Proof Logos -->
+      <div class="trusted-by fade-in">
+        <p>POWERING INDUSTRY LEADERS WORLDWIDE</p>
+        <div class="brand-row">
+          <span>AcmeCorp</span>
+          <span>HyperScale</span>
+          <span>Vertex Labs</span>
+          <span>PulseData</span>
+          <span>QuantumAI</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">WHY NOVAFLOW</span>
+        <h2>Engineered for lightning speed & conversions</h2>
+        <p>Stop fighting clunky tools. We designed every screen to minimize clicks and maximize your team's output.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon-box">⚡</div>
+          <h3>Real-time Sync & Workflows</h3>
+          <p>Automate repetitive handoffs across departments. Cut project delivery cycles by up to 40%.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon-box">📊</div>
+          <h3>Deep Funnel Analytics</h3>
+          <p>Get clear, actionable visibility into where drop-offs happen and what delivers recurring returns.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon-box">🔒</div>
+          <h3>Enterprise Security</h3>
+          <p>SOC-2 compliant, end-to-end encryption, and role-based access control built for zero worries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FLEXIBLE PRICING</span>
+        <h2>Transparent plans that scale with you</h2>
+        <p>No hidden fees. Switch plans or cancel whenever you need.</p>
+        
+        <!-- Billing Toggle -->
+        <div class="toggle-container">
+          <span>Monthly</span>
+          <label class="switch">
+            <input type="checkbox" id="pricingToggle" />
+            <span class="slider"></span>
+          </label>
+          <span>Yearly <span class="discount-badge">Save 20%</span></span>
+        </div>
+      </div>
+
+      <div class="pricing-cards">
+        <!-- Starter Plan -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h3>Starter</h3>
+            <p>For individuals and early-stage projects.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price" data-monthly="19" data-yearly="15">19</span>
+              <span class="period">/ month</span>
+            </div>
+          </div>
+          <ul class="features-list">
+            <li>✓ Up to 5 team members</li>
+            <li>✓ Standard reporting suite</li>
+            <li>✓ 10 automated integrations</li>
+            <li>✓ Community support</li>
+          </ul>
+          <a href="#" class="btn btn-secondary full-width">Get Started</a>
+        </div>
+
+        <!-- Pro Plan (Most Popular) -->
+        <div class="pricing-card featured">
+          <div class="popular-ribbon">Most Popular</div>
+          <div class="plan-header">
+            <h3>Professional</h3>
+            <p>Designed for fast-growing businesses.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price" data-monthly="49" data-yearly="39">49</span>
+              <span class="period">/ month</span>
+            </div>
+          </div>
+          <ul class="features-list">
+            <li>✓ Unlimited team members</li>
+            <li>✓ Predictive analytics dashboard</li>
+            <li>✓ Unlimited custom workflows</li>
+            <li>✓ Priority 24/7 dedicated support</li>
+            <li>✓ Custom domain & branding</li>
+          </ul>
+          <a href="#" class="btn btn-primary full-width">Start 14-Day Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section class="faq" id="faq">
+    <div class="container faq-container">
+      <div class="section-header">
+        <span class="section-tag">GOT QUESTIONS?</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Can I try NovaFlow for free before committing?</span>
+            <span class="arrow">↓</span>
+          </button>
+          <div class="accordion-content">
+            <p>Yes! Every account starts with an unrestricted 14-day free trial. No credit card is needed to get started.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>How does billing work when I upgrade or downgrade?</span>
+            <span class="arrow">↓</span>
+          </button>
+          <div class="accordion-content">
+            <p>Any plan changes are prorated immediately. If you downgrade, your unused balance is credited toward your next cycle.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>Can I integrate with our existing tool stack?</span>
+            <span class="arrow">↓</span>
+          </button>
+          <div class="accordion-content">
+            <p>NovaFlow connects with Slack, Google Workspace, GitHub, Salesforce, Notion, and 2,000+ apps via Zapier and custom webhooks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> NovaFlow Technologies, Inc. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
